@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLEVERSE — Luxury &amp; Performance Sneakers</title>
+    <meta
+      name="description"
+      content="Discover architectural luxury sneakers, carbon-plated marathon runners, and curated athletic footwear at SOLEVERSE with nationwide Cash on Delivery."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SOLEVERSE" />
+    <meta property="og:title" content="SOLEVERSE — Luxury &amp; Performance Sneakers" />
+    <meta
+      property="og:description"
+      content="Discover architectural luxury sneakers, carbon-plated marathon runners, and curated athletic footwear at SOLEVERSE."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SOLEVERSE — Luxury &amp; Performance Sneakers" />
+    <meta
+      name="twitter:description"
+      content="Step into your world with SOLEVERSE luxury and performance sneakers."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('soleverse_theme');
+          if (saved === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else if (saved === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "SOLEVERSE",
+        "description": "Premium Sneakers, Fashion, Lifestyle and Performance Footwear.",
+        "priceRange": "PKR 19,900 - PKR 42,000"
+      }
+    </script>
+  </head>
+  <body class="bg-[#F5F3ED] text-[#101114] dark:bg-[#101114] dark:text-[#F5F3ED] antialiased selection:bg-[#D7FF45] selection:text-[#101114]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
